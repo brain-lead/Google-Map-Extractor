@@ -73,24 +73,22 @@
 ### ⚡ Speed, Scale & Stealth
 43. **Concurrent threads (1–16)** drive both search and enrichment in parallel.
 44. **Built-in proxy pool** — bulk upload (`ip:port` and `ip:port:user:pass`), auto-test, and per-request rotation.
-45. **Cookie session** capture / import / auto-generate to stay under Google limits.
-46. **Browser fingerprint impersonation** to avoid bot detection.
-47. **Resilient fetching** — automatic retries and request jitter keep long scans running.
+45. **Resilient fetching** — automatic retries and request jitter keep long scans running.
 
 ### 🗂️ Jobs, Filters & Export
-48. **Job history** — every extraction is saved and re-openable anytime.
-49. **Smart filters** — Has email, Has social, Has website, Has phone, Min rating, Min reviews, Hot leads only, Country, Area/location, and **saved filter presets**.
-50. **Export to CSV** (Excel-friendly UTF-8).
-51. **Export to Excel (XLSX)** — styled headers, frozen header row, auto-filter.
-52. **Export to JSON**.
-53. **Export to Google Sheets** — one click, appends to a live sheet.
-54. **CRM-ready exports** — **HubSpot, Salesforce, and Zoho** with column-mapped import templates.
-55. **Shareable report view**.
-56. **Settings persistence** — default proxy, threads, country, max results, and scoring weights are saved.
-57. **In-app activation** — Free evaluation tier and full Licensed version.
-58. **Offline grace** — an activated license keeps working without internet.
-59. **Local-first & private** — everything runs on *your* machine; nothing leaves your PC except what you choose to export.
-60. **Encrypted, HWID-bound license storage**.
+46. **Job history** — every extraction is saved and re-openable anytime.
+47. **Smart filters** — Has email, Has social, Has website, Has phone, Min rating, Min reviews, Hot leads only, Country, Area/location, and **saved filter presets**.
+48. **Export to CSV** (Excel-friendly UTF-8).
+49. **Export to Excel (XLSX)** — styled headers, frozen header row, auto-filter.
+50. **Export to JSON**.
+51. **Export to Google Sheets** — one click, appends to a live sheet.
+52. **CRM-ready exports** — **HubSpot, Salesforce, and Zoho** with column-mapped import templates.
+53. **Shareable report view**.
+54. **Settings persistence** — default proxy, threads, country, max results, and scoring weights are saved.
+55. **In-app activation** — Free evaluation tier and full Licensed version.
+56. **Offline grace** — an activated license keeps working without internet.
+57. **Local-first & private** — everything runs on *your* machine; nothing leaves your PC except what you choose to export.
+58. **Encrypted, HWID-bound license storage**.
 
 ---
 
@@ -156,7 +154,7 @@ To start completely fresh, close the app and delete the `BrainLead` folder under
 
 If you need a lead generator, a data pipeline, a scraper, a dashboard, or any bespoke software — **we can build it for you.**
 
-- 🌐 **Website:** https://brainlead.pythonanywhere.com
+- 🌐 **Website:** https://brainlead.dev
 - 🐦 **@BrainLead**
 - 🤖 **@brainleadbot**
 - ✉️ **brain_lead@outlook.com**
