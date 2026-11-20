@@ -1,0 +1,18 @@
+{
+  "provider": "gemini",
+  "tier": "fast",
+  "custom_model": "gemini-3.8-flash",
+  "base_url": "",
+  "keys": {
+    "gemini": "Z0FBQUFBQnFfejU0a1FDV0VyZ3R1WmlDcTM1aUlpaHZLUWRoNW1sVG82WERJMW1mY2FvU0FvbDJ4eTY5U190akQ3dDVPUERTbWdfUWlBTzRmY3JuZnVYZVpabHdZX1Rrc1IxdmJtbnhMOGNOMkR6MXcwR1pDNmZMaHA5TndXVUU2Ynk4YnBpbmJlN0RoWHFqRnJyZ1B0WmZKLUNwSTMzVEV3PT0=",
+    "claude": "",
+    "openai": "",
+    "ollama": ""
+  },
+  "guardrails": {
+    "max_searches": 3,
+    "max_scrapes": 100,
+    "max_deep_leads": 25,
+    "max_steps": 18
+  }
+}

@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 620" width="100%" height="auto">
+  <defs>
+    <linearGradient id="extBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1020" height="620" rx="10" fill="url(#extBg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- 1. Top Master Bar -->
+  <rect x="12" y="12" width="996" height="52" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="38" cy="38" r="16" fill="#06b6d4"/>
+  <text x="38" y="44" font-family="Segoe UI, sans-serif" font-size="15" font-weight="bold" fill="#ffffff" text-anchor="middle">🎯</text>
+  <text x="64" y="34" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">BRAIN EXTRACTOR</text>
+  <rect x="236" y="22" width="76" height="18" rx="4" fill="url(#cyanGrad)"/>
+  <text x="274" y="35" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">v2.0 EXTREME</text>
+  <text x="64" y="51" font-family="Segoe UI, sans-serif" font-size="11" fill="#8b949e">5 Global Engines · 40 Countries · Deep Document Ingestion &amp; MX Classifier</text>
+
+  <!-- Telemetry Chips -->
+  <rect x="520" y="24" width="110" height="28" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="530" y="42" font-family="Segoe UI, sans-serif" font-size="9" fill="#8b949e">DISCOVERED:</text>
+  <text x="596" y="42" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#38bdf8">1,842</text>
+
+  <rect x="638" y="24" width="95" height="28" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="646" y="42" font-family="Segoe UI, sans-serif" font-size="9" fill="#8b949e">EMAILS:</text>
+  <text x="692" y="42" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#34d399">1,280</text>
+
+  <rect x="740" y="24" width="125" height="28" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="748" y="42" font-family="Segoe UI, sans-serif" font-size="9" fill="#8b949e">VALID MX:</text>
+  <text x="802" y="42" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#10b981">1,195 (93%)</text>
+
+  <rect x="874" y="24" width="124" height="28" rx="6" fill="#1f6feb"/>
+  <text x="936" y="42" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">📱 @brain_lead</text>
+
+  <!-- 2. Horizontal Control Strip -->
+  <rect x="12" y="72" width="996" height="52" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="24" y="81" width="310" height="34" rx="6" fill="#0d1117" stroke="#06b6d4" stroke-width="1"/>
+  <text x="36" y="103" font-family="Segoe UI, sans-serif" font-size="11" fill="#c9d1d9">Commercial Roofing, Industrial Electrician, HVAC</text>
+
+  <rect x="342" y="81" width="125" height="34" rx="6" fill="rgba(6,182,212,0.15)" stroke="#06b6d4" stroke-width="1"/>
+  <text x="404" y="103" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#38bdf8" text-anchor="middle">⚡ Random Niches</text>
+
+  <rect x="475" y="81" width="150" height="34" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="485" y="103" font-family="Segoe UI, sans-serif" font-size="11" fill="#c9d1d9">🇺🇸 US (40 Countries) ▼</text>
+
+  <rect x="633" y="81" width="105" height="34" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="643" y="103" font-family="Segoe UI, sans-serif" font-size="11" fill="#c9d1d9">Depth: 5 Pages ▼</text>
+
+  <rect x="746" y="81" width="115" height="34" rx="6" fill="#0d1117" stroke="#10b981" stroke-width="1"/>
+  <text x="803" y="103" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">🛡️ Proxies: 48/50</text>
+
+  <rect x="870" y="81" width="128" height="34" rx="6" fill="#238636"/>
+  <text x="934" y="103" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">▶ Start Extraction</text>
+
+  <!-- 3. Engine Badges Bar -->
+  <rect x="12" y="132" width="996" height="32" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="24" y="152" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">ACTIVE ENGINES:</text>
+  <rect x="125" y="137" width="110" height="22" rx="4" fill="#1e293b"/>
+  <text x="180" y="152" font-family="Segoe UI, sans-serif" font-size="10" fill="#38bdf8" text-anchor="middle">🗺️ Google Maps (428)</text>
+  <rect x="243" y="137" width="105" height="22" rx="4" fill="#1e293b"/>
+  <text x="295" y="152" font-family="Segoe UI, sans-serif" font-size="10" fill="#38bdf8" text-anchor="middle">🔍 Google Web (342)</text>
+  <rect x="356" y="137" width="95" height="22" rx="4" fill="#1e293b"/>
+  <text x="403" y="152" font-family="Segoe UI, sans-serif" font-size="10" fill="#38bdf8" text-anchor="middle">🌐 Bing (295)</text>
+  <rect x="459" y="137" width="95" height="22" rx="4" fill="#1e293b"/>
+  <text x="506" y="152" font-family="Segoe UI, sans-serif" font-size="10" fill="#38bdf8" text-anchor="middle">🧭 Yahoo (182)</text>
+  <rect x="562" y="137" width="95" height="22" rx="4" fill="#1e293b"/>
+  <text x="609" y="152" font-family="Segoe UI, sans-serif" font-size="10" fill="#38bdf8" text-anchor="middle">🌏 Baidu (33)</text>
+  <rect x="665" y="137" width="135" height="22" rx="4" fill="rgba(16,185,129,0.15)" stroke="#10b981" stroke-width="1"/>
+  <text x="732" y="152" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#34d399" text-anchor="middle">📑 PDF / Doc Forensics: ON</text>
+  <text x="996" y="152" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">10 Concurrent Workers Active</text>
+
+  <!-- 4. Data Table Workspace -->
+  <rect x="12" y="172" width="996" height="388" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Table Toolbar -->
+  <rect x="12" y="172" width="996" height="38" rx="8" fill="#21262d"/>
+  <rect x="22" y="178" width="90" height="26" rx="4" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="67" y="195" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">All Leads (1,280)</text>
+
+  <rect x="118" y="178" width="125" height="26" rx="4" fill="#13261b" stroke="#238636" stroke-width="1"/>
+  <text x="180" y="195" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#3fb950" text-anchor="middle">Valid MX Only (1,195)</text>
+
+  <rect x="249" y="178" width="115" height="26" rx="4" fill="#101e38" stroke="#1f6feb" stroke-width="1"/>
+  <text x="306" y="195" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#58a6ff" text-anchor="middle">Microsoft 365 (540)</text>
+
+  <rect x="370" y="178" width="125" height="26" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="432" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#c9d1d9" text-anchor="middle">Google Workspace (410)</text>
+
+  <rect x="502" y="178" width="115" height="26" rx="4" fill="#238636"/>
+  <text x="559" y="195" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">⚡ Validate MX</text>
+
+  <rect x="624" y="178" width="80" height="26" rx="4" fill="#1f6feb"/>
+  <text x="664" y="195" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#ffffff" text-anchor="middle">💾 CSV</text>
+
+  <rect x="710" y="178" width="75" height="26" rx="4" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+  <text x="747" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#c9d1d9" text-anchor="middle">📄 TXT</text>
+
+  <rect x="800" y="178" width="198" height="26" rx="5" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <text x="810" y="195" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b949e">🔍 Filter leads or domains...</text>
+
+  <!-- Table Header -->
+  <rect x="14" y="212" width="992" height="26" fill="#161b22"/>
+  <text x="30" y="229" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">#</text>
+  <text x="65" y="229" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">Business / Lead Name</text>
+  <text x="260" y="229" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">Email Address</text>
+  <text x="470" y="229" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">MX Infrastructure Provider</text>
+  <text x="680" y="229" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">Source Engine</text>
+  <text x="810" y="229" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">Country</text>
+  <text x="910" y="229" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#8b949e">Deliverability</text>
+  <line x1="14" y1="238" x2="1004" y2="238" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Row 1 -->
+  <rect x="14" y="240" width="992" height="34" fill="#0d1117"/>
+  <text x="30" y="262" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b949e">1</text>
+  <text x="65" y="262" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Apex Commercial Roofing LLC</text>
+  <text x="260" y="262" font-family="Segoe UI, sans-serif" font-size="11" fill="#38bdf8">contact@apexcommercialroofing.com</text>
+  <rect x="470" y="248" width="125" height="18" rx="3" fill="#101e38" stroke="#1f6feb" stroke-width="1"/>
+  <text x="532" y="261" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#58a6ff" text-anchor="middle">🔷 Microsoft 365</text>
+  <text x="680" y="262" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">Google Maps Directory</text>
+  <text x="810" y="262" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">🇺🇸 United States</text>
+  <rect x="910" y="248" width="76" height="18" rx="3" fill="#13261b"/>
+  <text x="948" y="261" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#3fb950" text-anchor="middle">VALID MX</text>
+  <line x1="14" y1="274" x2="1004" y2="274" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Row 2 -->
+  <rect x="14" y="276" width="992" height="34" fill="#161b22"/>
+  <text x="30" y="298" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b949e">2</text>
+  <text x="65" y="298" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Vanguard HVAC Engineering</text>
+  <text x="260" y="298" font-family="Segoe UI, sans-serif" font-size="11" fill="#38bdf8">inquiries@vanguard-hvac.co.uk</text>
+  <rect x="470" y="284" width="130" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="535" y="297" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#a5b4fc" text-anchor="middle">🔵 Google Workspace</text>
+  <text x="680" y="298" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">Bing Enterprise SERP</text>
+  <text x="810" y="298" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">🇬🇧 United Kingdom</text>
+  <rect x="910" y="284" width="76" height="18" rx="3" fill="#13261b"/>
+  <text x="948" y="297" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#3fb950" text-anchor="middle">VALID MX</text>
+  <line x1="14" y1="310" x2="1004" y2="310" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Row 3 -->
+  <rect x="14" y="312" width="992" height="34" fill="#0d1117"/>
+  <text x="30" y="334" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b949e">3</text>
+  <text x="65" y="334" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Delta Industrial Elektrotechnik</text>
+  <text x="260" y="334" font-family="Segoe UI, sans-serif" font-size="11" fill="#38bdf8">projekte@delta-industrie.de</text>
+  <rect x="470" y="320" width="145" height="18" rx="3" fill="#2d2208" stroke="#9e6a03" stroke-width="1"/>
+  <text x="542" y="333" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#fbbf24" text-anchor="middle">🛡️ Proofpoint Gateway</text>
+  <text x="680" y="334" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">Yahoo Business Web</text>
+  <text x="810" y="334" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">🇩🇪 Germany</text>
+  <rect x="910" y="320" width="76" height="18" rx="3" fill="#13261b"/>
+  <text x="948" y="333" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#3fb950" text-anchor="middle">VALID MX</text>
+  <line x1="14" y1="346" x2="1004" y2="346" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Row 4 -->
+  <rect x="14" y="348" width="992" height="34" fill="#161b22"/>
+  <text x="30" y="370" font-family="Segoe UI, sans-serif" font-size="10" fill="#8b949e">4</text>
+  <text x="65" y="370" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#ffffff">Shanghai TransGlobal Supply Chain</text>
+  <text x="260" y="370" font-family="Segoe UI, sans-serif" font-size="11" fill="#38bdf8">sales@transglobal-sh.cn</text>
+  <rect x="470" y="356" width="135" height="18" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="537" y="369" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#c9d1d9" text-anchor="middle">🟢 Alibaba Enterprise</text>
+  <text x="680" y="370" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">Baidu Trade Registry</text>
+  <text x="810" y="370" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#c9d1d9">🇨🇳 China</text>
+  <rect x="910" y="356" width="76" height="18" rx="3" fill="#13261b"/>
+  <text x="948" y="369" font-family="Segoe UI, sans-serif" font-size="9.5" font-weight="bold" fill="#3fb950" text-anchor="middle">VALID MX</text>
+
+  <!-- 5. Bottom Status Strip -->
+  <rect x="12" y="568" width="996" height="40" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="26" y="593" font-family="Segoe UI, sans-serif" font-size="11" fill="#8b949e">Local SQLite Store: <tspan fill="#38bdf8">leads.db</tspan> · Extraction Engine: <tspan fill="#34d399">Active</tspan> · Sorter Integration Ready</text>
+  <text x="996" y="593" font-family="Segoe UI, sans-serif" font-size="11" fill="#8b949e" text-anchor="end">Brain Lead Commercial Prospecting Suite · <tspan fill="#f59e0b" font-weight="bold">brainlead.dev</tspan></text>
+</svg>

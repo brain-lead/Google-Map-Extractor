@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyd
+*.log
+*.db
+build/
+dist/
+release/
+node_modules/
+license_data.json

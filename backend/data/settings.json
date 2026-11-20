@@ -1,0 +1,10 @@
+{
+  "default_proxy": "",
+  "gl": "us",
+  "hl": "en",
+  "scoring": {
+    "preset": "quality",
+    "use_domain_age": true
+  },
+  "threads": 16
+}

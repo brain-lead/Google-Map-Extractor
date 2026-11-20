@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="gme_bg" x1="12" y1="8" x2="116" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A84FF" />
+      <stop offset="55%" stop-color="#0055D4" />
+      <stop offset="100%" stop-color="#0C2444" />
+    </linearGradient>
+    <radialGradient id="gme_glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(96 24) rotate(135) scale(88)">
+      <stop offset="0%" stop-color="#30D158" stop-opacity="0.72" />
+      <stop offset="65%" stop-color="#30D158" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="gme_pin" x1="64" y1="20" x2="64" y2="94" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#DCEBFF" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#gme_bg)" />
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#gme_glow)" />
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="27.25" stroke="rgba(255,255,255,0.28)" stroke-width="1.5" />
+  <!-- Precision radar rings -->
+  <circle cx="64" cy="52" r="36" stroke="rgba(255,255,255,0.16)" stroke-width="1.5" stroke-dasharray="4 4" />
+  <circle cx="64" cy="52" r="26" stroke="rgba(255,255,255,0.22)" stroke-width="1.2" />
+  <!-- Stylized Apple Maps pin -->
+  <path d="M64 21C47.4 21 34 34.4 34 51C34 71.5 64 96 64 96C64 96 94 71.5 94 51C94 34.4 80.6 21 64 21Z" fill="url(#gme_pin)" />
+  <circle cx="64" cy="50" r="11" fill="#0A84FF" />
+  <circle cx="64" cy="50" r="4.5" fill="#30D158" />
+  <!-- GME monogram pill -->
+  <rect x="33" y="92" width="62" height="22" rx="11" fill="rgba(7,12,24,0.86)" stroke="rgba(255,255,255,0.28)" stroke-width="1.2" />
+  <text x="64" y="107.2" text-anchor="middle" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="12.5" font-weight="800" letter-spacing="1.4">GME</text>
+</svg>

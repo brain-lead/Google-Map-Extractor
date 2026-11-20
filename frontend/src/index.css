@@ -1,0 +1,230 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    background-color: #07080d;
+    color: #f5f5f7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+@layer components {
+  .apple-canvas {
+    background:
+      radial-gradient(1200px 600px at 18% -10%, rgba(10, 132, 255, 0.12), transparent 60%),
+      radial-gradient(900px 500px at 88% -5%, rgba(48, 209, 88, 0.06), transparent 55%),
+      #07080d;
+  }
+
+  .card {
+    @apply rounded-[20px] border border-white/[0.08] bg-zinc-900/65 p-5 backdrop-blur-xl;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 18px 40px -24px rgba(0, 0, 0, 0.75);
+  }
+
+  .apple-modal {
+    @apply rounded-[24px] border border-white/[0.12] bg-zinc-900/85 backdrop-blur-2xl;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 30px 70px -15px rgba(0, 0, 0, 0.85);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-medium tracking-[-0.01em] transition-all duration-200 ease-spring active:scale-[0.97] disabled:opacity-45 disabled:pointer-events-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-[#0A84FF] text-white hover:bg-[#3399ff] shadow-[0_1px_12px_rgba(10,132,255,0.35),inset_0_1px_0_rgba(255,255,255,0.22)];
+  }
+
+  .btn-ghost {
+    @apply btn border border-white/[0.08] bg-white/[0.05] text-zinc-200 hover:bg-white/[0.1] hover:border-white/[0.14];
+  }
+
+  .btn-danger {
+    @apply btn border border-[#FF453A]/30 bg-[#FF453A]/15 text-[#FF6961] hover:bg-[#FF453A]/25;
+  }
+
+  .input {
+    @apply w-full rounded-xl border border-white/[0.09] bg-white/[0.04] px-3.5 py-2 text-sm text-zinc-100 placeholder-zinc-500 outline-none transition-all duration-200 focus:border-[#0A84FF]/70 focus:bg-white/[0.06] focus:ring-2 focus:ring-[#0A84FF]/25;
+  }
+
+  select.input option {
+    background-color: #18181b;
+    color: #f4f4f5;
+  }
+
+  .label {
+    @apply mb-1.5 block text-[11px] font-semibold uppercase tracking-wider text-zinc-400;
+  }
+
+  .segmented {
+    @apply inline-flex items-center gap-1 rounded-xl border border-white/[0.07] bg-white/[0.04] p-1;
+  }
+
+  .segmented-item {
+    @apply rounded-lg px-3 py-1.5 text-xs font-medium transition-all duration-200 ease-spring;
+  }
+}
+
+/* Apple Maps-inspired dark mode tile styling (markers stay true color) */
+.apple-dark-map .leaflet-tile-pane {
+  filter: invert(100%) hue-rotate(180deg) brightness(92%) contrast(92%) saturate(85%);
+}
+.apple-dark-map .leaflet-control-attribution {
+  background: rgba(12, 14, 20, 0.72) !important;
+  color: #a1a1aa !important;
+  backdrop-filter: blur(8px);
+}
+.apple-dark-map .leaflet-control-attribution a {
+  color: #60a5fa !important;
+}
+.apple-dark-map .leaflet-bar a {
+  background-color: rgba(24, 24, 27, 0.85) !important;
+  color: #f4f4f5 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+.apple-dark-map .leaflet-popup-content-wrapper,
+.apple-dark-map .leaflet-popup-tip {
+  background: rgba(24, 24, 27, 0.94) !important;
+  color: #f4f4f5 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 14px !important;
+}
+
+/* Apple Spring Animations */
+@keyframes viewEnter {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.994);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes modalEnter {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes backdropEnter {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes cardEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes toastEnter {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes shimmerSweep {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.animate-view-enter {
+  animation: viewEnter 340ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-modal-enter {
+  animation: modalEnter 320ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-backdrop-enter {
+  animation: backdropEnter 220ms ease-out both;
+}
+
+.animate-card-enter {
+  animation: cardEnter 360ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-toast-enter {
+  animation: toastEnter 280ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.shimmer-bar {
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-bar::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.28), transparent);
+  animation: shimmerSweep 1.6s infinite;
+}
+
+/* Custom sleek macOS scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-view-enter,
+  .animate-modal-enter,
+  .animate-backdrop-enter,
+  .animate-card-enter,
+  .animate-toast-enter,
+  .shimmer-bar::after {
+    animation: none !important;
+  }
+}
+
+/* One-click report: only the report content prints (browser -> Save as PDF). */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .report-print,
+  .report-print * {
+    visibility: visible;
+  }
+  .report-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    background: #fff;
+  }
+}
