@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 620" width="100%" height="auto">
+  <defs>
+    <linearGradient id="gmeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="gmeAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1020" height="620" rx="10" fill="url(#gmeBg)" stroke="#1f2937" stroke-width="1.5"/>
+
+  <!-- Top Bar -->
+  <rect x="12" y="12" width="996" height="54" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <circle cx="38" cy="39" r="16" fill="url(#gmeAccent)"/>
+  <text x="38" y="44" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">📍</text>
+  <text x="64" y="34" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">GOOGLE MAP EXTRACTOR</text>
+  <rect x="275" y="21" width="92" height="18" rx="4" fill="url(#gmeAccent)"/>
+  <text x="321" y="34" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#ffffff" text-anchor="middle">v3.0 AI COPILOT</text>
+  <text x="64" y="51" font-family="Segoe UI, sans-serif" font-size="11" fill="#9ca3af">Polygon Area Scan · Website Tech Audits · Autonomous AI Prospecting</text>
+
+  <rect x="595" y="25" width="128" height="28" rx="5" fill="#0d1117" stroke="#30363d"/>
+  <text x="659" y="43" font-family="Segoe UI, sans-serif" font-size="10" fill="#a78bfa" font-weight="bold" text-anchor="middle">🤖 AI: Gemini / Claude</text>
+  <rect x="731" y="25" width="132" height="28" rx="5" fill="#0d1117" stroke="#10b981"/>
+  <text x="797" y="43" font-family="Segoe UI, sans-serif" font-size="10" fill="#34d399" font-weight="bold" text-anchor="middle">✓ 1,420 Leads Scored</text>
+  <rect x="872" y="25" width="124" height="28" rx="6" fill="#2563eb"/>
+  <text x="934" y="43" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">📱 @brain_lead</text>
+
+  <!-- Left Panel: AI Co-Pilot Mission -->
+  <rect x="12" y="76" width="380" height="482" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="28" y="102" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#60a5fa">🤖 AI AUTOPILOT MISSION</text>
+  <rect x="24" y="114" width="356" height="58" rx="6" fill="#0d1117" stroke="#3b82f6"/>
+  <text x="34" y="135" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#e5e7eb">"Find independent local hotels &amp; clinics with</text>
+  <text x="34" y="152" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#e5e7eb">300+ reviews and broken/no websites + pitch"</text>
+
+  <rect x="24" y="184" width="356" height="106" rx="6" fill="#0f172a" stroke="#1e293b"/>
+  <text x="34" y="204" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#34d399">● Autopilot Action Log</text>
+  <text x="34" y="224" font-family="Consolas, monospace" font-size="9.5" fill="#94a3b8">• start_keyword_search ("boutique hotel")</text>
+  <text x="34" y="242" font-family="Consolas, monospace" font-size="9.5" fill="#94a3b8">• inspect_website (SSL / Mobile / CMS audit)</text>
+  <text x="34" y="260" font-family="Consolas, monospace" font-size="9.5" fill="#94a3b8">• read_reviews (extract customer pain points)</text>
+  <text x="34" y="278" font-family="Consolas, monospace" font-size="9.5" fill="#a78bfa">• generate_pitch (tailored email &amp; call opener)</text>
+
+  <rect x="24" y="302" width="356" height="202" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="34" y="324" font-family="Segoe UI, sans-serif" font-size="10.5" font-weight="bold" fill="#f9fafb">Top Ranked Prospect Opportunities</text>
+  <text x="34" y="346" font-family="Segoe UI, sans-serif" font-size="10" fill="#34d399">1. First Colony Hotel ★ 4.0 (588) — NO SITE</text>
+  <text x="34" y="366" font-family="Segoe UI, sans-serif" font-size="10" fill="#60a5fa">2. Lagos Airport Hotel ★ 3.9 (5,483) — BROKEN</text>
+  <text x="34" y="386" font-family="Segoe UI, sans-serif" font-size="10" fill="#f59e0b">3. GrandVenice Suites ★ 4.2 (1,229) — LEGACY</text>
+  <text x="34" y="414" font-family="Segoe UI, sans-serif" font-size="10" fill="#9ca3af">Pitch generated: "Direct Booking Engine to</text>
+  <text x="34" y="430" font-family="Segoe UI, sans-serif" font-size="10" fill="#9ca3af">recover 15-25% lost OTA commissions..."</text>
+  <rect x="34" y="454" width="160" height="32" rx="6" fill="#2563eb"/>
+  <text x="114" y="474" font-family="Segoe UI, sans-serif" font-size="10.5" font-weight="bold" fill="#ffffff" text-anchor="middle">Export Shortlist CSV</text>
+
+  <rect x="24" y="514" width="356" height="32" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <text x="36" y="534" font-family="Segoe UI, sans-serif" font-size="10" fill="#6b7280">Ask AI Co-Pilot to research, filter, or pitch...</text>
+
+  <!-- Right Panel: Leads & Enrichment Table -->
+  <rect x="404" y="76" width="604" height="482" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="422" y="102" font-family="Segoe UI, sans-serif" font-size="12" font-weight="bold" fill="#e5e7eb">📊 EXTRACTED BUSINESS LEADS &amp; AI TECH AUDITS</text>
+
+  <rect x="420" y="116" width="572" height="30" rx="4" fill="#0d1117"/>
+  <text x="432" y="135" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#9ca3af">BUSINESS NAME</text>
+  <text x="615" y="135" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#9ca3af">REVIEWS</text>
+  <text x="695" y="135" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#9ca3af">TECH AUDIT</text>
+  <text x="840" y="135" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#9ca3af">AI SCORE</text>
+  <text x="920" y="135" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#9ca3af">CONTACT</text>
+
+  <rect x="420" y="154" width="572" height="46" rx="4" fill="#111827"/>
+  <text x="432" y="175" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#f9fafb">First Colony Creek Hotel</text>
+  <text x="432" y="191" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#9ca3af">Hospitality · Independent</text>
+  <text x="615" y="181" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#fbbf24">4.0 ★ (588)</text>
+  <text x="695" y="181" font-family="Segoe UI, sans-serif" font-size="10" fill="#f87171">No Website</text>
+  <rect x="840" y="166" width="52" height="22" rx="4" fill="#065f46"/>
+  <text x="866" y="181" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#34d399" text-anchor="middle">96 / A+</text>
+  <text x="920" y="181" font-family="Segoe UI, sans-serif" font-size="10" fill="#60a5fa">Phone + Mail</text>
+
+  <rect x="420" y="208" width="572" height="46" rx="4" fill="#0d1117"/>
+  <text x="432" y="229" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#f9fafb">Lagos Airport Hotel Ikeja</text>
+  <text x="432" y="245" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#9ca3af">Heritage Hotel · High Volume</text>
+  <text x="615" y="235" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#fbbf24">3.9 ★ (5,483)</text>
+  <text x="695" y="235" font-family="Segoe UI, sans-serif" font-size="10" fill="#fb923c">No SSL / Broken</text>
+  <rect x="840" y="220" width="52" height="22" rx="4" fill="#065f46"/>
+  <text x="866" y="235" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#34d399" text-anchor="middle">94 / A+</text>
+  <text x="920" y="235" font-family="Segoe UI, sans-serif" font-size="10" fill="#60a5fa">Email + Social</text>
+
+  <rect x="420" y="262" width="572" height="46" rx="4" fill="#111827"/>
+  <text x="432" y="283" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#f9fafb">GrandVenice Transit Suites</text>
+  <text x="432" y="299" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#9ca3af">Apartments · Ajao Estate</text>
+  <text x="615" y="289" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#fbbf24">4.2 ★ (1,229)</text>
+  <text x="695" y="289" font-family="Segoe UI, sans-serif" font-size="10" fill="#fbbf24">No Viewport</text>
+  <rect x="840" y="274" width="52" height="22" rx="4" fill="#1e3a8a"/>
+  <text x="866" y="289" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#93c5fd" text-anchor="middle">89 / A</text>
+  <text x="920" y="289" font-family="Segoe UI, sans-serif" font-size="10" fill="#60a5fa">Direct + IG</text>
+
+  <rect x="420" y="316" width="572" height="46" rx="4" fill="#0d1117"/>
+  <text x="432" y="337" font-family="Segoe UI, sans-serif" font-size="11" font-weight="bold" fill="#f9fafb">Vintage Suites Multi-Branch</text>
+  <text x="432" y="353" font-family="Segoe UI, sans-serif" font-size="9.5" fill="#9ca3af">Multi-Unit · Surulere &amp; Lekki</text>
+  <text x="615" y="343" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#fbbf24">3.6 ★ (1,167)</text>
+  <text x="695" y="343" font-family="Segoe UI, sans-serif" font-size="10" fill="#a78bfa">Needs App</text>
+  <rect x="840" y="328" width="52" height="22" rx="4" fill="#1e3a8a"/>
+  <text x="866" y="343" font-family="Segoe UI, sans-serif" font-size="10" font-weight="bold" fill="#93c5fd" text-anchor="middle">86 / A</text>
+  <text x="920" y="343" font-family="Segoe UI, sans-serif" font-size="10" fill="#60a5fa">Full Profile</text>
+
+  <!-- Polygon Map Preview Box -->
+  <rect x="420" y="376" width="572" height="168" rx="6" fill="#0b1322" stroke="#1e293b"/>
+  <text x="434" y="398" font-family="Segoe UI, sans-serif" font-size="10.5" font-weight="bold" fill="#38bdf8">🗺️ POLYGON AREA GRID SCANNER — ZERO BLIND SPOTS</text>
+  <polygon points="480,435 610,415 690,460 640,520 500,510" fill="rgba(59,130,246,0.18)" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="530" cy="455" r="5" fill="#34d399"/><circle cx="585" cy="445" r="5" fill="#34d399"/><circle cx="620" cy="485" r="5" fill="#fbbf24"/><circle cx="555" cy="492" r="5" fill="#34d399"/>
+  <text x="720" y="452" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#d1d5db">Adaptive Tile Subdivision: Active</text>
+  <text x="720" y="474" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#34d399">Enrichment: Emails, Phones, Socials</text>
+  <text x="720" y="496" font-family="Segoe UI, sans-serif" font-size="10.5" fill="#a78bfa">Exports: CSV · XLSX · JSON · CRM</text>
+
+  <!-- Bottom Strip -->
+  <rect x="12" y="568" width="996" height="40" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="26" y="593" font-family="Segoe UI, sans-serif" font-size="11" fill="#8b949e">Compiled Binary: <tspan fill="#34d399">Native C/C++ (Nuitka)</tspan> · Authenticode Signed · <tspan fill="#a78bfa">AI BYOK Ready</tspan></text>
+  <text x="996" y="593" font-family="Segoe UI, sans-serif" font-size="11" fill="#8b949e" text-anchor="end">Brain Lead Automation Suite · <tspan fill="#f59e0b" font-weight="bold">brainlead.dev</tspan></text>
+</svg>

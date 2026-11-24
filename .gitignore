@@ -1,0 +1,6 @@
+__pycache__/
+*.py
+*.pyc
+*.log
+*.db
+license_data.json
